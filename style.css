@@ -3,4 +3,66 @@ body {
   padding: 0;
   overflow: hidden;
   cursor: default;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: transparent; 
+	background: #30a8dc;
+}
+#logo {
+	width:340px;
+	height:340px;
+	position: absolute;
+	z-index: -1;
+	left:50%;
+	top:50%;
+	margin-left:-170px;
+	margin-top:-170px;
+
+	background-image: url("./src/images/logo.png");
+}
+#canvas {
+	width:600px;
+	height:400px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left:-300px;
+	margin-top:-200px;
+}
+
+button {
+	width:63px;
+	height:21px;
+
+	position: absolute;
+}
+
+button {
+	width:340px;
+	height:340px;
+	position: absolute;
+	z-index: -1;
+	left:50%!important;;
+	top:50%!important;
+	margin-left:-170px;
+	margin-top:-170px;
+	z-index:3;
+
+	border-radius: 170px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+}
+
+button:nth-child(odd) {
+	margin-top: 12px;
+    margin-left: -27px;
+    z-index: 4;
+    width: auto;
+    height: auto;
+}
+
+#score {
+    left: 50%!important;;
+    margin-left: -100px;
+    top: 50%!important;;
+    margin-top: -300px;
+}
