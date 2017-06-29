@@ -41,7 +41,7 @@ button {
 	position: absolute;
 	z-index: -1;
 	left:50%!important;;
-	top:50%!important;;
+	top:50%!important;
 	margin-left:-170px;
 	margin-top:-170px;
 	z-index:3;
@@ -57,8 +57,8 @@ button:nth-child(odd) {
 }
 
 #score {
-    left: 50%;
+    left: 50%!important;;
     margin-left: -100px;
-    top: 50%;
+    top: 50%!important;;
     margin-top: -300px;
 }
